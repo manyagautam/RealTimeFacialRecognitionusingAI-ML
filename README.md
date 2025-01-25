@@ -1,47 +1,47 @@
-Real-Time Facial Recognition using AI/ML
+Gesichtserkennung in Echtzeit mithilfe von KI/ML
 
-📌 Overview
+📌 Übersicht
 
-This project demonstrates a real-time facial recognition system using AI/ML. It captures live video, detects faces, and recognizes identities using a TensorFlow-based model built on the VGG16 architecture.
+Dieses Projekt demonstriert ein Gesichtserkennungssystem in Echtzeit mithilfe von KI/ML. Es nimmt Live-Videos auf, erkennt Gesichter und erkennt Identitäten mithilfe eines auf TensorFlow basierenden Modells, das auf der VGG16-Architektur basiert.
 
-🎯 Features
+🎯 Funktionen
 
-- Real-time image capture using OpenCV.
-- Face detection and recognition via deep learning.
-- Model optimized for fast inference with GPU support.
-- Modular design for training and testing.
+- Bildaufnahme in Echtzeit mithilfe von OpenCV.
+- Gesichtserkennung und -erkennung mithilfe von Deep Learning.
+- Modell optimiert für schnelle Inferenz mit GPU-Unterstützung.
+- modulares Design für Training und Tests.
 
-🛠️ Tech Stack
+🛠️ Tech-Stack
 
-- Programming Language: Python
-- Frameworks/Libraries: TensorFlow, OpenCV, NumPy, Matplotlib
-- Model Architecture: VGG16
+- Programmiersprache: Python
+- Frameworks/Bibliotheken: TensorFlow, OpenCV, NumPy, Matplotlib
+- Modellarchitektur: VGG16
 
-🚀 Installation and Usage
+🚀 Installation und Verwendung
 
-Prerequisites
-- Python 3.8 or later
-- Required libraries include TensorFlow, OpenCV, and Matplotlib.
-Steps to Run
-1. Clone the repository and navigate to the project directory.
-2. Capture images, train the model, and perform real-time recognition.
+Voraussetzungen
+- Python 3.8 oder höher
+- Erforderliche Bibliotheken umfassen TensorFlow, OpenCV und Matplotlib.
+Schritte zum Ausführen
+1. Klonen Sie das Repository und navigieren Sie zum Projektverzeichnis.
+ 2. Bilder aufnehmen, Modell trainieren und Echtzeiterkennung durchführen.
 
-📂 Project Structure
+📂 Projektstruktur
 
-The project includes directories for data storage, scripts for data collection and model training, and saved models for recognition tasks.
+Das Projekt umfasst Verzeichnisse zur Datenspeicherung, Skripte zur Datenerfassung und Modellschulung sowie gespeicherte Modelle für Erkennungsaufgaben.
 
-📖 How It Works
+📖 Funktionsweise
 
-1. Data Collection: Captures images via webcam and saves them for training.
-2. Model Training: Trains a facial recognition model using VGG16 for feature extraction.
-3. Real-Time Recognition: Identifies faces from the live webcam feed and matches them with known identities.
+1. Datenerfassung: Nimmt Bilder per Webcam auf und speichert sie zum Training.
+2. Modellschulung: Trainiert ein Gesichtserkennungsmodell mit VGG16 zur Merkmalsextraktion.
+3. Echtzeiterkennung: Identifiziert Gesichter aus dem Live-Webcam-Feed und ordnet sie bekannten Identitäten zu.
 
-📚 Future Improvements
+📚 Zukünftige Verbesserungen
 
-- Add support for larger datasets.
-- Implement more advanced face matching algorithms (e.g., FaceNet).
-- Enhance accuracy for diverse lighting and angles.
+- Unterstützung für größere Datensätze hinzufügen.
+- Fortgeschrittenere Gesichtsabgleichsalgorithmen implementieren (z. B. FaceNet).
+- Genauigkeit für unterschiedliche Beleuchtung und Winkel verbessern.
 
 💡 Credits
 
-Developed by Manya Gautam as part of a real-time AI/ML project.
+Entwickelt von Manya Gautam als Teil eines Echtzeit-KI/ML-Projekts.
